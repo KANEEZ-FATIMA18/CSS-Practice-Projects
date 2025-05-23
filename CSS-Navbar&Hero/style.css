@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url("//themeadapt.com/tf/ironik/assets/img/bg/area_bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* navbar section  */
+.navbar {
+  height: 100px;
+  width: 100%;
+}
+
+.first {
+  display: inline-block;
+  width: 25%;
+  vertical-align: middle;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.first img {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.menu {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+.menu ul {
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu li {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  font-size: large;
+  color: white;
+}
+.menu li:hover {
+  color: #523ad9;
+  cursor: pointer;
+}
+
+.last {
+  display: inline-block;
+  width: 25%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.last button {
+  background-color: #5736d4;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 17px;
+  font-weight: bold;
+}
+
+.last button:hover {
+  background-color: #5008a1;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+/* hero section */
+
+.hero {
+  width: 100%;
+}
+
+.left {
+  height: 100vh;
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  text-align: left;
+
+  padding: 10% 5%;
+}
+
+.left p {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 20px 0px;
+  padding: 5px;
+}
+
+.left h1 {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 70px;
+}
+
+.one {
+  background-color: #5736d4;
+  color: white;
+  padding: 16px 30px;
+  font-size: 15px;
+
+  border: none;
+  border-radius: 12px;
+  margin-top: 50px;
+  color: white;
+  padding: 16px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+.one:hover {
+  background-color: #5008a1;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.two {
+  background-color: black;
+  color: white;
+  padding: 16px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.two:hover {
+  background-color: #e4e2ea;
+  cursor: pointer;
+  color: black;
+  transition: 0.7s;
+}
+
+.right {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+  height: 60vh;
+  text-align: center;
+}
